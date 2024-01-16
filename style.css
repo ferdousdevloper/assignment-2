@@ -23,7 +23,6 @@
 
 .main {
   margin: 52px 250px 0 250px;
-  border: 1px solid red;
 }
 
 /* NAVBAR SECTION START */
@@ -472,6 +471,49 @@
   font-weight: 800;
 }
 
+/* NEWSLETTER SECTION END */
+footer{
+  background: rgba(19, 19, 24, 0.05);
+  margin-top: 100px;
+  padding: 120px 0;
+  text-align: center;
+
+}
+.footer-section{
+  padding: 50px;
+}
+
+.footer-section .footer-title {
+  justify-content: center;
+
+}
+
+.footer-section .footer-description {
+  color: #5A5A5D;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 15px;
+}
+
+.footer-section .footer-icons i {
+  margin-top: 15px;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.footer-section hr {
+  margin: 50px 300px;
+  background: rgba(19, 19, 24, 0.10);
+}
+
+.footer-section .copyright {
+  color: #131318;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
 /* Media query for Tablet responsiveness */
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
@@ -634,23 +676,30 @@
     font-size: 1.75rem;
     font-weight: 800;
   }
-/* ------------------------- */
 
-.newsletter-section .newsletter-content {
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 100px;
-}
-.newsletter-section .newsletter-content .newsletter-form {
-  width: auto;
-  margin-left: 0px;
-  margin-bottom: 20px;
-}
+  /* ------------------------- */
 
-.newsletter-section .newsletter-content .newsletter-banner img{
-  margin: 10px;
-  max-width:100%;
-}
+  .newsletter-section .newsletter-content {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .newsletter-section .newsletter-content .newsletter-form {
+    width: auto;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+
+  .newsletter-section .newsletter-content .newsletter-banner img {
+    margin: 10px;
+    max-width: 100%;
+  }
+
+  .footer-section hr {
+    margin: 50px auto;
+    background: rgba(19, 19, 24, 0.10);
+  }
 }
 
 
@@ -869,10 +918,12 @@
     margin: 24px 40px;
     padding: 14px 100px;
   }
-  .newsletter-section .newsletter-content .newsletter-banner img{
+
+  .newsletter-section .newsletter-content .newsletter-banner img {
     margin: 10px;
-    max-width:100%;
+    max-width: 100%;
   }
+
   .newsletter-section .newsletter-content .newsletter-banner .discount {
     position: absolute;
     border-radius: 8px;
@@ -882,16 +933,23 @@
     right: 10px;
     bottom: 35px;
   }
+
   .newsletter-section .newsletter-content .newsletter-banner .discount span {
     color: #FFF;
     text-align: center;
     font-size: 0.5rem;
     font-weight: 400;
-  
+
   }
+
   .newsletter-section .newsletter-content .newsletter-banner .discount h2 {
     color: #FFF;
     font-size: 0.87rem;
     font-weight: 800;
+  }
+  /* --------------------------------------- */
+  .footer-section hr {
+    margin: 50px auto;
+    background: rgba(19, 19, 24, 0.10);
   }
 }
