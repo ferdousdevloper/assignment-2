@@ -228,22 +228,25 @@
 }
 
 
-.flex1{
+.flex1 {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 24px;
 }
-.flex2{
+
+.flex2 {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 24px;
 }
-.flex3{
+
+.flex3 {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 24px;
 }
-.parent img{
+
+.parent img {
   height: 100%;
   object-fit: cover;
   border-radius: 16px;
@@ -251,49 +254,56 @@
   background-size: cover;
   background-position: 50%;
 }
-.div1 h3{
+
+.div1 h3 {
   position: relative;
   bottom: 50%;
   color: #FFF;
   font-size: 1.75rem;
   font-weight: 800;
 }
-.div2 h3{
+
+.div2 h3 {
   position: relative;
   bottom: 50%;
   color: #FFF;
   font-size: 1.75rem;
   font-weight: 800;
 }
-.div3 h3{
+
+.div3 h3 {
   position: relative;
   bottom: 50%;
   color: #FFF;
   font-size: 1.75rem;
   font-weight: 800;
 }
-.div4 h3{
+
+.div4 h3 {
   position: relative;
   bottom: 50%;
   color: #FFF;
   font-size: 1.75rem;
   font-weight: 800;
 }
-.div5 h3{
+
+.div5 h3 {
   position: relative;
   bottom: 50%;
   color: #FFF;
   font-size: 1.75rem;
   font-weight: 800;
 }
-.div6 h3{
+
+.div6 h3 {
   position: relative;
   bottom: 50%;
   color: #FFF;
   font-size: 1.75rem;
   font-weight: 800;
 }
-.div7 h3{
+
+.div7 h3 {
   position: relative;
   bottom: 50%;
   color: #FFF;
@@ -306,6 +316,161 @@
 
 
 /* GALLERY SECTION END */
+.choose-section {
+  margin-top: 100px;
+}
+
+.choose-section .choose-description {
+  text-align: center;
+}
+
+.choose-section .choose-description h2 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+
+.choose-section .choose-card {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+}
+
+.card1 {
+  grid-area: 1 / 1 / 2 / 3;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+}
+
+.card2 {
+  grid-area: 1 / 3 / 2 / 5;
+}
+
+.card3 {
+  grid-area: 2 / 2 / 3 / 4;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+}
+
+
+
+.choose-section .choose-card .card {
+  border-radius: 16px;
+  padding: 32px 55px 32px 32px;
+}
+
+.choose-section h3 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 25px 0;
+}
+
+.choose-section .choose-card .card2 {
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+.choose-section .choose-card p {
+  color: #5A5A5D;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.newsletter-section .newsletter-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.newsletter-section .newsletter-content .newsletter-form {
+
+  border-radius: 16px;
+  border: 1px solid #FF5400;
+  width: 40%;
+  margin-left: 30px;
+}
+
+.newsletter-section .newsletter-content .newsletter-form h3 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 40px;
+}
+
+.newsletter-section .newsletter-content .newsletter-form p {
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 1rem;
+  line-height: 26px;
+  margin: 0 84px 24px 40px;
+}
+
+.newsletter-section .newsletter-content .newsletter-form input {
+  border-radius: 8px;
+  border: 0;
+  background: rgba(19, 19, 24, 0.05);
+  padding: 16px 251px 16px 20px;
+  color: rgba(19, 19, 24, 0.30);
+  font-family: Mulish;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 10px 40px;
+}
+
+.newsletter-section .newsletter-content .hr {
+  margin: 10px 42px;
+  border-radius: 16px;
+  background: rgba(19, 19, 24, 0.10);
+}
+
+.newsletter-section .newsletter-content .newsletter-form .subscribe {
+  margin: 24px 40px;
+  padding: 14px 196px;
+}
+
+.newsletter-section .newsletter-content .newsletter-banner {
+  position: relative;
+  margin-right: 30px;
+  text-align: center;
+  object-fit: cover;
+  border-radius: 16px;
+  object-fit: cover;
+  background-size: cover;
+  background-position: 100%;
+}
+
+.newsletter-section .newsletter-content .newsletter-banner .discount {
+  position: absolute;
+  border-radius: 16px;
+  transform: rotate(-19.628deg);
+  background: #FF5400;
+  padding: 30px;
+  right: 20px;
+  bottom: 70px;
+}
+
+.newsletter-section .newsletter-content .newsletter-banner .discount span {
+  color: #FFF;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+
+}
+
+.newsletter-section .newsletter-content .newsletter-banner .discount h2 {
+  color: #FFF;
+  font-size: 2rem;
+  font-weight: 800;
+}
 
 /* Media query for Tablet responsiveness */
 
@@ -387,70 +552,42 @@
 
   /* --------------------------------------------- */
 
-  .flex1{
+  .flex1 {
     flex-direction: column;
     padding: 10px;
   }
-  .flex2{
+
+  .flex2 {
     flex-direction: column;
     padding: 10px;
   }
-  .flex3{
+
+  .flex3 {
     flex-direction: column;
     padding: 10px;
   }
-  .flex1 img{
+
+  .flex1 img {
     max-width: 100%;
   }
-  .flex2 img{
+
+  .flex2 img {
     max-width: 90%;
   }
-  .flex3 img{
+
+  .flex3 img {
     max-width: 90%;
   }
-  .div1 h3{
+
+  .div1 h3 {
     position: relative;
     bottom: 200px;
     color: #ffffff;
     font-size: 1.75rem;
     font-weight: 800;
   }
-  .div2 h3{
-    position: relative;
-    bottom: 200px;
-    color: #FFF;
-    font-size: 1.75rem;
-    font-weight: 800;
-  }
-  .div3 h3{
-    position: relative;
-    bottom: 200px;
-    color: #FFF;
-    font-size: 1.75rem;
-    font-weight: 800;
-  }
-  .div4 h3{
-    position: relative;
-    bottom: 200px;
-    color: #FFF;
-    font-size: 1.75rem;
-    font-weight: 800;
-  }
-  .div5 h3{
-    position: relative;
-    bottom: 200px;
-    color: #FFF;
-    font-size: 1.75rem;
-    font-weight: 800;
-  }
-  .div6 h3{
-    position: relative;
-    bottom: 200px;
-    color: #FFF;
-    font-size: 1.75rem;
-    font-weight: 800;
-  }
-  .div7 h3{
+
+  .div2 h3 {
     position: relative;
     bottom: 200px;
     color: #FFF;
@@ -458,6 +595,62 @@
     font-weight: 800;
   }
 
+  .div3 h3 {
+    position: relative;
+    bottom: 200px;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+  }
+
+  .div4 h3 {
+    position: relative;
+    bottom: 200px;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+  }
+
+  .div5 h3 {
+    position: relative;
+    bottom: 200px;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+  }
+
+  .div6 h3 {
+    position: relative;
+    bottom: 200px;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+  }
+
+  .div7 h3 {
+    position: relative;
+    bottom: 200px;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+  }
+/* ------------------------- */
+
+.newsletter-section .newsletter-content {
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+}
+.newsletter-section .newsletter-content .newsletter-form {
+  width: auto;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.newsletter-section .newsletter-content .newsletter-banner img{
+  margin: 10px;
+  max-width:100%;
+}
 }
 
 
@@ -547,74 +740,158 @@
 
 
 
-  .flex1{
+  .flex1 {
     flex-direction: column;
     padding: 10px;
   }
-  .flex2{
+
+  .flex2 {
     flex-direction: column;
     padding: 10px;
   }
-  .flex3{
+
+  .flex3 {
     flex-direction: column;
     padding: 10px;
   }
-  .flex1 img{
+
+  .flex1 img {
     max-width: 100%;
   }
-  .flex2 img{
+
+  .flex2 img {
     max-width: 90%;
   }
-  .flex3 img{
+
+  .flex3 img {
     max-width: 90%;
   }
-  .div1 h3{
+
+  .div1 h3 {
     position: relative;
     bottom: 100px;
     color: #ffffff;
     font-size: 1.75rem;
     font-weight: 800;
   }
-  .div2 h3{
+
+  .div2 h3 {
     position: relative;
     bottom: 100px;
     color: #FFF;
     font-size: 1.75rem;
     font-weight: 800;
   }
-  .div3 h3{
+
+  .div3 h3 {
     position: relative;
     bottom: 100px;
     color: #FFF;
     font-size: 1.75rem;
     font-weight: 800;
   }
-  .div4 h3{
+
+  .div4 h3 {
     position: relative;
     bottom: 100px;
     color: #FFF;
     font-size: 1.75rem;
     font-weight: 800;
   }
-  .div5 h3{
+
+  .div5 h3 {
     position: relative;
     bottom: 100px;
     color: #FFF;
     font-size: 1.75rem;
     font-weight: 800;
   }
-  .div6 h3{
+
+  .div6 h3 {
     position: relative;
     bottom: 100px;
     color: #FFF;
     font-size: 1.75rem;
     font-weight: 800;
   }
-  .div7 h3{
+
+  .div7 h3 {
     position: relative;
     bottom: 100px;
     color: #FFF;
     font-size: 1.75rem;
+    font-weight: 800;
+  }
+
+  /* ------------------------- */
+
+  .choose-section .choose-card {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+  }
+
+  .card1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .card2 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .card3 {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+
+  /* --------------------------- */
+
+  .newsletter-section .newsletter-content {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .newsletter-section .newsletter-content .newsletter-form {
+    width: auto;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+
+  .newsletter-section .newsletter-content .newsletter-form input {
+    padding: 16px 51px 16px 20px;
+    margin: 10px 40px;
+  }
+
+  .newsletter-section .newsletter-content .newsletter-form .subscribe {
+    margin: 24px 40px;
+    padding: 14px 100px;
+  }
+  .newsletter-section .newsletter-content .newsletter-banner img{
+    margin: 10px;
+    max-width:100%;
+  }
+  .newsletter-section .newsletter-content .newsletter-banner .discount {
+    position: absolute;
+    border-radius: 8px;
+    transform: rotate(-19.628deg);
+    background: #FF5400;
+    padding: 10px;
+    right: 10px;
+    bottom: 35px;
+  }
+  .newsletter-section .newsletter-content .newsletter-banner .discount span {
+    color: #FFF;
+    text-align: center;
+    font-size: 0.5rem;
+    font-weight: 400;
+  
+  }
+  .newsletter-section .newsletter-content .newsletter-banner .discount h2 {
+    color: #FFF;
+    font-size: 0.87rem;
     font-weight: 800;
   }
 }
