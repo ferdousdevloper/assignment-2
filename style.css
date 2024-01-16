@@ -7,6 +7,7 @@
   font-family: 'Mulish', sans-serif;
 }
 
+/* PRIMARY KEYS */
 .primary-color {
   color: #FF5400;
 }
@@ -85,6 +86,7 @@
 }
 
 /* NAVBAR SECTION END */
+/* ===================================================== */
 /* BANNER SECTION START */
 .banner-section {
   background: url(Images/Group\ 13\ \(1\)\ \(1\).png);
@@ -170,6 +172,7 @@
 }
 
 /* BANNER SECTION END */
+/* ===================================================== */
 /* POPULAR SECTION START */
 
 .popular-section {
@@ -211,6 +214,7 @@
 
 
 /* POPULAR SECTION END */
+/* ===================================================== */
 /* GALLERY SECTION START */
 
 .gallery-section {
@@ -331,11 +335,9 @@
   font-weight: 800;
 }
 
-
-
-
-
 /* GALLERY SECTION END */
+/* ===================================================== */
+/* CHOOSE SECTION START */
 .choose-section {
   margin-top: 100px;
 }
@@ -403,8 +405,8 @@
   font-weight: 400;
   line-height: 26px;
 }
-
-/* --------------- */
+/* CHOOSE SECTION END */
+/* ===================================================== */
 /* EXTRA SECTION START */
 .extra-section {
   border: 1px solid #FF5400;
@@ -460,6 +462,10 @@
   font-size: 1rem;
   margin-bottom: 20px;
 }
+
+/* EXTRA SECTION END */
+/* ===================================================== */
+/* NEWS LETTER SECTION START */
 
 .newsletter-section .newsletter-content {
   display: flex;
@@ -550,6 +556,8 @@
 }
 
 /* NEWSLETTER SECTION END */
+/* ===================================================== */
+/* FOOTER SECTION START */
 footer {
   background: rgba(19, 19, 24, 0.05);
   margin-top: 100px;
@@ -605,15 +613,21 @@ footer {
   font-size: 1rem;
   font-weight: 300;
 }
+/* FOOTER SECTION END */
+
+
+/* ===================================================== */
+/* ===================================================== */
+/* ===================================================== */
 
 /* Media query for Tablet responsiveness */
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
-
+/* ===================================================== */
   .main {
     margin: 20px;
   }
-
+/* ===================================================== */
   .navbar-menu {
     display: none;
     flex-direction: column;
@@ -622,7 +636,7 @@ footer {
     left: 0;
     right: 0;
   }
-
+/* ===================================================== */
   .navbar-menu.show {
     display: flex;
 
@@ -643,7 +657,7 @@ footer {
     font-size: 1.5em;
   }
 
-  /* -------------------------------- */
+  /* ===================================================== */
 
   .banner-section-margin {
     padding: 10px 15px;
@@ -673,7 +687,7 @@ footer {
     gap: 1.5rem;
   }
 
-  /* ---------------------------- */
+  /* ===================================================== */
   .popular-section {
     flex-direction: column;
     margin-top: 50px;
@@ -684,7 +698,7 @@ footer {
     width: 80%;
   }
 
-  /* --------------------------------------------- */
+ /* ===================================================== */
 
   .flex1 {
     flex-direction: column;
@@ -769,7 +783,7 @@ footer {
     font-weight: 800;
   }
 
-  /* ---------------------------- */
+ /* ===================================================== */
 
   .plane img {
     object-fit: cover;
@@ -809,7 +823,7 @@ footer {
     height: 100%;
   }
 
-  /* ------------------------- */
+/* ===================================================== */
 
   .newsletter-section .newsletter-content {
     flex-direction: column;
@@ -833,14 +847,17 @@ footer {
     background: rgba(19, 19, 24, 0.10);
   }
 }
-
-
+/* TABLET RESPONSIVE AREA END */
+/* ===================================================== */
+/* ===================================================== */
+/* ===================================================== */
 /* Media query for mobile responsiveness */
 @media only screen and (max-width: 600px) {
+  /* ===================================================== */
   .main {
     margin: 20px;
   }
-
+/* ===================================================== */
   .navbar-menu {
     display: none;
     flex-direction: column;
@@ -870,7 +887,7 @@ footer {
     font-size: 1.5em;
   }
 
-  /* -------------------------------- */
+  /* ===================================================== */
   .banner-section-margin {
     padding: 10px 15px;
 
@@ -899,7 +916,7 @@ footer {
     gap: 1.5rem;
   }
 
-  /* ------------------------------------ */
+  /* ===================================================== */
 
   .popular-section {
     flex-direction: column;
@@ -923,10 +940,7 @@ footer {
 
   }
 
-  /* ------------------------------ */
-
-
-
+ /* ===================================================== */
   .flex1 {
     flex-direction: column;
     padding: 10px;
@@ -1013,7 +1027,7 @@ footer {
     font-weight: 800;
   }
 
-  /* ------------------------- */
+  /* ===================================================== */
   .choose-section {
     margin-top: 20px;
   }
@@ -1039,7 +1053,7 @@ footer {
     grid-area: 3 / 1 / 4 / 2;
   }
 
-  /* --------------------------- */
+ /* ===================================================== */
 
   .plane img {
     object-fit: cover;
@@ -1080,7 +1094,7 @@ footer {
   }
 
 
-  /* --------------------------- */
+ /* ===================================================== */
 
   .newsletter-section .newsletter-content {
     flex-direction: column;
@@ -1133,9 +1147,15 @@ footer {
     font-weight: 800;
   }
 
-  /* --------------------------------------- */
+/* ===================================================== */
   .footer-section hr {
     margin: 50px auto;
     background: rgba(19, 19, 24, 0.10);
   }
 }
+/* ===================================================== */
+/* ===================================================== */
+
+
+
+/* _______________________________________F-I-N-I-S-H-E-D______________________________________________ */
