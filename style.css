@@ -382,6 +382,56 @@
   font-weight: 400;
   line-height: 26px;
 }
+/* --------------- */
+/* EXTRA SECTION START */
+.extra-section{
+  border: 1px solid #FF5400;
+  background-color: rgba(228, 128, 41, 0.08);
+  border-radius: 16px;  
+  padding: 30px;
+  margin-top: 60px;
+}
+.extra-section .extra-section-title{
+  color: #424247;
+  text-align: center;
+  font-size: 2.5rem;
+  
+}
+.plane img{
+  object-fit: cover;
+  border-radius: 16px;
+  object-fit: cover;
+  background-size: cover;
+  background-position: 100%;
+  transition: 5.0s;
+  rotate: -15deg;
+}
+.plane:hover img{
+  transform: translateX(800px) ;
+}
+
+.extra-section-content{
+  display: flex;
+  padding-top: 100px;
+  gap: 100px;
+  justify-content: space-evenly;
+}
+.extra-section-description{
+  text-align: justify;
+}
+.extra-section-content h3{
+  color: #FF5400;
+  font-family: Mulish;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.extra-section-content p{
+  color: #424247;
+  font-family: Mulish;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
 
 .newsletter-section .newsletter-content {
   display: flex;
@@ -676,7 +726,41 @@ footer{
     font-size: 1.75rem;
     font-weight: 800;
   }
+/* ---------------------------- */
 
+.plane img{
+  object-fit: cover;
+  border-radius: 16px;
+  object-fit: cover;
+  background-size: cover;
+  background-position: 100%;
+  max-width: 50%;
+  transition: 5.0s;
+  rotate: -15deg;
+}
+.plane:hover img{
+  transform: translateX(400px) ;
+}
+
+.extra-section .extra-section-title{
+  color: #424247;
+  text-align: center;
+  font-size: 1rem;
+  
+}
+.extra-section-content{
+  flex-direction: column;
+  padding-top: 0;
+  gap: 0;
+  
+}
+.extra-section-description{
+  text-align: center;
+}
+.extra-section-content iframe{
+  width: 100%;
+  height: 100%;
+}
   /* ------------------------- */
 
   .newsletter-section .newsletter-content {
@@ -905,6 +989,43 @@ footer{
   .card3 {
     grid-area: 3 / 1 / 4 / 2;
   }
+
+  /* --------------------------- */
+
+  .plane img{
+    object-fit: cover;
+    border-radius: 16px;
+    object-fit: cover;
+    background-size: cover;
+    background-position: 100%;
+    max-width: 50%;
+    transition: 5.0s;
+    rotate: -15deg;
+  }
+  .plane:hover img{
+    transform: translateX(200px) ;
+  }
+
+  .extra-section .extra-section-title{
+    color: #424247;
+    text-align: center;
+    font-size: 1rem;
+    
+  }
+  .extra-section-content{
+    flex-direction: column;
+    padding-top: 0;
+    gap: 0;
+    
+  }
+  .extra-section-description{
+    text-align: center;
+  }
+  .extra-section-content iframe{
+    width: 100%;
+    height: 100%;
+  }
+
 
   /* --------------------------- */
 
