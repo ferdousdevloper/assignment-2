@@ -772,8 +772,13 @@ footer{
   .popular-section {
     flex-direction: column;
     margin-top: 50px;
-    /* gap: 40px; */
     align-items: center;
+  }
+  .popular-section .popular-content .popular-title {
+    
+    font-size: 1.25rem;
+    font-weight: 800;
+    
   }
 
   .popular-section .popular-content {
@@ -792,16 +797,19 @@ footer{
   .flex1 {
     flex-direction: column;
     padding: 10px;
+    margin-bottom: 0px;
   }
 
   .flex2 {
     flex-direction: column;
     padding: 10px;
+    margin-bottom: 0px;
   }
 
   .flex3 {
     flex-direction: column;
     padding: 10px;
+    margin-bottom: 0px;
   }
 
   .flex1 img {
@@ -873,6 +881,9 @@ footer{
   }
 
   /* ------------------------- */
+  .choose-section {
+    margin-top: 20px;
+  }
 
   .choose-section .choose-card {
     margin-top: 48px;
